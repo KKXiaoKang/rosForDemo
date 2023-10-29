@@ -1,0 +1,2 @@
+Invoking command in '/home/orangepi/code/My_Robot/build/localization': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orangepi/code/My_Robot/src/localization -DCMAKE_INSTALL_PREFIX=/home/orangepi/code/My_Robot/install/localization
+Invoked command in '/home/orangepi/code/My_Robot/build/localization' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orangepi/code/My_Robot/src/localization -DCMAKE_INSTALL_PREFIX=/home/orangepi/code/My_Robot/install/localization

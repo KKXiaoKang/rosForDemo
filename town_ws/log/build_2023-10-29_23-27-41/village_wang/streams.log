@@ -1,0 +1,24 @@
+[0.394s] Invoking command in '/home/orangepi/code/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/orangepi/code/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+[0.648s] [100%] Built target wang2_node
+[0.686s] Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/orangepi/code/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+[0.742s] Invoking command in '/home/orangepi/code/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/orangepi/code/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_wang
+[0.783s] -- Install configuration: ""
+[0.783s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[0.783s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[0.784s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[0.784s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[0.784s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[0.785s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[0.786s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[0.786s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[0.787s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[0.787s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[0.787s] -- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.dsv
+[0.789s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[0.789s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[0.790s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[0.790s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.xml
+[0.798s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/lib/village_wang/wang2_node
+[0.798s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/launch
+[0.799s] -- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/launch/village.launch.py
+[0.815s] Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/orangepi/code/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_wang

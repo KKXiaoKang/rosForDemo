@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.001601] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.003267] (-) JobUnselected: {'identifier': 'village_li'}
+[0.004494] (-) JobUnselected: {'identifier': 'village_zhang'}
+[0.005493] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict([('village_interfaces', '/home/orangepi/code/town_ws/install/village_interfaces')])}
+[0.005846] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.040500] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.043806] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.045262] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/code/town_ws/build/village_wang', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/code/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'orangepi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2063'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/orangepi/code/town_ws/install/village_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/code'), ('DESKTOP_SESSION', 'xfce'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('MANDATORY_PATH', '/usr/share/gconf/xfce.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/orangepi/code/town_ws/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/xfce.default.path'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', 'c1'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/orangepi5:@/tmp/.ICE-unix/1913,unix/orangepi5:/tmp/.ICE-unix/1913'), ('GDM_LANG', 'zh_CN'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/tmp/ssh-dRwUT1pZYnAj/agent.1913'), ('UMS_SIZE', '256M'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/orangepi'), ('AMENT_PREFIX_PATH', '/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/home/orangepi/code/town_ws/install/village_interfaces:/opt/ros/foxy'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a6f8d958-d9d6-44b8-bf00-2d2741e460e4'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '7'), ('PWD', '/home/orangepi/code/town_ws/build/village_wang'), ('LC_ALL', 'zh_CN.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orangepi/code/town_ws/install/village_interfaces:/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[0.098873] (-) TimerEvent: {}
+[0.199722] (-) TimerEvent: {}
+[0.231859] (village_wang) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.289682] (village_wang) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299826] (-) TimerEvent: {}
+[0.400445] (-) TimerEvent: {}
+[0.501304] (-) TimerEvent: {}
+[0.602647] (-) TimerEvent: {}
+[0.674460] (village_wang) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.702796] (-) TimerEvent: {}
+[0.804057] (-) TimerEvent: {}
+[0.838051] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.849365] (village_wang) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.904189] (-) TimerEvent: {}
+[1.005018] (-) TimerEvent: {}
+[1.106241] (-) TimerEvent: {}
+[1.179837] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.206439] (-) TimerEvent: {}
+[1.307274] (-) TimerEvent: {}
+[1.309402] (village_wang) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.315299] (village_wang) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.407451] (-) TimerEvent: {}
+[1.508189] (-) TimerEvent: {}
+[1.603740] (village_wang) StdoutLine: {'line': b'-- Found village_interfaces: 0.0.0 (/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake)\n'}
+[1.608271] (-) TimerEvent: {}
+[1.708748] (-) TimerEvent: {}
+[1.809534] (-) TimerEvent: {}
+[1.910381] (-) TimerEvent: {}
+[1.979856] (village_wang) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.010546] (-) TimerEvent: {}
+[2.111259] (-) TimerEvent: {}
+[2.155601] (village_wang) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.160287] (village_wang) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.161510] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.162147] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.164671] (village_wang) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.165147] (village_wang) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.166945] (village_wang) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.171860] (village_wang) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.173191] (village_wang) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.178186] (village_wang) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.179003] (village_wang) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.180317] (village_wang) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.201067] (village_wang) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.211509] (-) TimerEvent: {}
+[2.243898] (village_wang) StdoutLine: {'line': b'-- Generating done\n'}
+[2.254416] (village_wang) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/code/town_ws/build/village_wang\n'}
+[2.311747] (-) TimerEvent: {}
+[2.355346] (village_wang) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wang2_node\x1b[0m\n'}
+[2.411973] (-) TimerEvent: {}
+[2.450932] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[2.512182] (-) TimerEvent: {}
+[2.612995] (-) TimerEvent: {}
+[2.713905] (-) TimerEvent: {}
+[2.814806] (-) TimerEvent: {}
+[2.915859] (-) TimerEvent: {}
+[3.016657] (-) TimerEvent: {}
+[3.117644] (-) TimerEvent: {}
+[3.218504] (-) TimerEvent: {}
+[3.319589] (-) TimerEvent: {}
+[3.420356] (-) TimerEvent: {}
+[3.521145] (-) TimerEvent: {}
+[3.621985] (-) TimerEvent: {}
+[3.722852] (-) TimerEvent: {}
+[3.823746] (-) TimerEvent: {}
+[3.924568] (-) TimerEvent: {}
+[4.025470] (-) TimerEvent: {}
+[4.126480] (-) TimerEvent: {}
+[4.227350] (-) TimerEvent: {}
+[4.328266] (-) TimerEvent: {}
+[4.429187] (-) TimerEvent: {}
+[4.530094] (-) TimerEvent: {}
+[4.631061] (-) TimerEvent: {}
+[4.731873] (-) TimerEvent: {}
+[4.832769] (-) TimerEvent: {}
+[4.933736] (-) TimerEvent: {}
+[5.034565] (-) TimerEvent: {}
+[5.135915] (-) TimerEvent: {}
+[5.236808] (-) TimerEvent: {}
+[5.337351] (-) TimerEvent: {}
+[5.438049] (-) TimerEvent: {}
+[5.539099] (-) TimerEvent: {}
+[5.640121] (-) TimerEvent: {}
+[5.741033] (-) TimerEvent: {}
+[5.842485] (-) TimerEvent: {}
+[5.943344] (-) TimerEvent: {}
+[6.044227] (-) TimerEvent: {}
+[6.145121] (-) TimerEvent: {}
+[6.246002] (-) TimerEvent: {}
+[6.346940] (-) TimerEvent: {}
+[6.447631] (-) TimerEvent: {}
+[6.548178] (-) TimerEvent: {}
+[6.649049] (-) TimerEvent: {}
+[6.749890] (-) TimerEvent: {}
+[6.850801] (-) TimerEvent: {}
+[6.951676] (-) TimerEvent: {}
+[7.052578] (-) TimerEvent: {}
+[7.153423] (-) TimerEvent: {}
+[7.254362] (-) TimerEvent: {}
+[7.355234] (-) TimerEvent: {}
+[7.456177] (-) TimerEvent: {}
+[7.557034] (-) TimerEvent: {}
+[7.657877] (-) TimerEvent: {}
+[7.758825] (-) TimerEvent: {}
+[7.859677] (-) TimerEvent: {}
+[7.960580] (-) TimerEvent: {}
+[8.061610] (-) TimerEvent: {}
+[8.162580] (-) TimerEvent: {}
+[8.263221] (-) TimerEvent: {}
+[8.364115] (-) TimerEvent: {}
+[8.464912] (-) TimerEvent: {}
+[8.565504] (-) TimerEvent: {}
+[8.666459] (-) TimerEvent: {}
+[8.767405] (-) TimerEvent: {}
+[8.868837] (-) TimerEvent: {}
+[8.969616] (-) TimerEvent: {}
+[9.070112] (-) TimerEvent: {}
+[9.170615] (-) TimerEvent: {}
+[9.271106] (-) TimerEvent: {}
+[9.371614] (-) TimerEvent: {}
+[9.472135] (-) TimerEvent: {}
+[9.572662] (-) TimerEvent: {}
+[9.673149] (-) TimerEvent: {}
+[9.773698] (-) TimerEvent: {}
+[9.874437] (-) TimerEvent: {}
+[9.975203] (-) TimerEvent: {}
+[10.076160] (-) TimerEvent: {}
+[10.176834] (-) TimerEvent: {}
+[10.277517] (-) TimerEvent: {}
+[10.378108] (-) TimerEvent: {}
+[10.479069] (-) TimerEvent: {}
+[10.579969] (-) TimerEvent: {}
+[10.680809] (-) TimerEvent: {}
+[10.781621] (-) TimerEvent: {}
+[10.882535] (-) TimerEvent: {}
+[10.983400] (-) TimerEvent: {}
+[11.084266] (-) TimerEvent: {}
+[11.185089] (-) TimerEvent: {}
+[11.286098] (-) TimerEvent: {}
+[11.386926] (-) TimerEvent: {}
+[11.488265] (-) TimerEvent: {}
+[11.589152] (-) TimerEvent: {}
+[11.690011] (-) TimerEvent: {}
+[11.790854] (-) TimerEvent: {}
+[11.891955] (-) TimerEvent: {}
+[11.993345] (-) TimerEvent: {}
+[12.094141] (-) TimerEvent: {}
+[12.194665] (-) TimerEvent: {}
+[12.295600] (-) TimerEvent: {}
+[12.396464] (-) TimerEvent: {}
+[12.497427] (-) TimerEvent: {}
+[12.598279] (-) TimerEvent: {}
+[12.699249] (-) TimerEvent: {}
+[12.800201] (-) TimerEvent: {}
+[12.901232] (-) TimerEvent: {}
+[13.002358] (-) TimerEvent: {}
+[13.103196] (-) TimerEvent: {}
+[13.107290] (village_wang) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wang2_node\x1b[0m\n'}
+[13.205073] (-) TimerEvent: {}
+[13.306817] (-) TimerEvent: {}
+[13.407776] (-) TimerEvent: {}
+[13.508817] (-) TimerEvent: {}
+[13.609620] (-) TimerEvent: {}
+[13.710523] (-) TimerEvent: {}
+[13.811428] (-) TimerEvent: {}
+[13.912429] (-) TimerEvent: {}
+[14.013356] (-) TimerEvent: {}
+[14.114366] (-) TimerEvent: {}
+[14.215317] (-) TimerEvent: {}
+[14.224274] (village_wang) StdoutLine: {'line': b'[100%] Built target wang2_node\n'}
+[14.261602] (village_wang) CommandEnded: {'returncode': 0}
+[14.315585] (-) TimerEvent: {}
+[14.348898] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'install'}
+[14.383090] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/code/town_ws/build/village_wang'], 'cwd': '/home/orangepi/code/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'orangepi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2063'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/orangepi/code/town_ws/install/village_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/code'), ('DESKTOP_SESSION', 'xfce'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('MANDATORY_PATH', '/usr/share/gconf/xfce.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/orangepi/code/town_ws/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/xfce.default.path'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', 'c1'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/orangepi5:@/tmp/.ICE-unix/1913,unix/orangepi5:/tmp/.ICE-unix/1913'), ('GDM_LANG', 'zh_CN'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/tmp/ssh-dRwUT1pZYnAj/agent.1913'), ('UMS_SIZE', '256M'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/orangepi'), ('AMENT_PREFIX_PATH', '/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/home/orangepi/code/town_ws/install/village_interfaces:/opt/ros/foxy'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a6f8d958-d9d6-44b8-bf00-2d2741e460e4'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '7'), ('PWD', '/home/orangepi/code/town_ws/build/village_wang'), ('LC_ALL', 'zh_CN.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orangepi/code/town_ws/install/village_interfaces:/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[14.403564] (village_wang) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.405555] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang\n'}
+[14.406015] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang\n'}
+[14.406181] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh\n'}
+[14.406302] (village_wang) StdoutLine: {'line': b'-- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv\n'}
+[14.406491] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/path.sh\n'}
+[14.406595] (village_wang) StdoutLine: {'line': b'-- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/path.dsv\n'}
+[14.406691] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.bash\n'}
+[14.406784] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.sh\n'}
+[14.406878] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.zsh\n'}
+[14.406971] (village_wang) StdoutLine: {'line': b'-- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.dsv\n'}
+[14.407065] (village_wang) StdoutLine: {'line': b'-- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.dsv\n'}
+[14.407163] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang\n'}
+[14.407260] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake\n'}
+[14.407403] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake\n'}
+[14.407503] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.xml\n'}
+[14.408332] (village_wang) StdoutLine: {'line': b'-- Installing: /home/orangepi/code/town_ws/install/village_wang/lib/village_wang/wang2_node\n'}
+[14.414068] (village_wang) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/code/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""\n'}
+[14.415120] (village_wang) StdoutLine: {'line': b'-- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/launch\n'}
+[14.415946] (-) TimerEvent: {}
+[14.416502] (village_wang) StdoutLine: {'line': b'-- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/launch/village.launch.py\n'}
+[14.421681] (village_wang) CommandEnded: {'returncode': 0}
+[14.516326] (-) TimerEvent: {}
+[14.617620] (-) TimerEvent: {}
+[14.631813] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 0}
+[14.635553] (-) EventReactorShutdown: {}

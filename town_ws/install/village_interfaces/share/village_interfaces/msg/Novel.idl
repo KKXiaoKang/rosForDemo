@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from village_interfaces/msg/Novel.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module village_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " 原始数据类型" "\n"
+      " bool" "\n"
+      " byte" "\n"
+      " char" "\n"
+      " float32,float64" "\n"
+      " int8,uint8" "\n"
+      " int16,uint16" "\n"
+      " int32,uint32" "\n"
+      " int64,uint64" "\n"
+      " string")
+    struct Novel {
+      @verbatim (language="comment", text=
+        " 调用原始数据类型" "\n"
+        " 或者std_msgs/msg/string")
+      string content;
+
+      @verbatim (language="comment", text=
+        " 调用已有的数据类型")
+      sensor_msgs::msg::Image image;
+    };
+  };
+};

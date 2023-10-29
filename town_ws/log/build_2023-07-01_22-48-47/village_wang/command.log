@@ -1,0 +1,6 @@
+Invoking command in '/home/orangepi/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/orangepi/code/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/orangepi/code/town_ws/install/village_wang
+Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/orangepi/code/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/orangepi/code/town_ws/install/village_wang
+Invoking command in '/home/orangepi/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+Invoking command in '/home/orangepi/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_wang
+Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_wang

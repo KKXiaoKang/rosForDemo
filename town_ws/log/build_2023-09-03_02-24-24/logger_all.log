@@ -1,0 +1,266 @@
+[0.346s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.347s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb5669370>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb5669370>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb56698b0>)
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.380s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/code/town_ws'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_interfaces) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_interfaces' with type 'ros.ament_cmake' and name 'village_interfaces'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_li' with type 'ros.ament_python' and name 'village_li'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ros'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_wang' with type 'ros.ament_cmake' and name 'village_wang'
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.449s] DEBUG:colcon.colcon_core.verb:Building package 'village_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/code/town_ws/build/village_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/code/town_ws/install/village_interfaces', 'merge_install': False, 'path': '/home/orangepi/code/town_ws/src/village_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'village_wang' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/code/town_ws/build/village_wang', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/code/town_ws/install/village_wang', 'merge_install': False, 'path': '/home/orangepi/code/town_ws/src/village_wang', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'village_li' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/code/town_ws/build/village_li', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/code/town_ws/install/village_li', 'merge_install': False, 'path': '/home/orangepi/code/town_ws/src/village_li', 'symlink_install': False, 'test_result_base': None}
+[0.453s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.457s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.457s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/code/town_ws/src/village_interfaces' with build type 'ament_cmake'
+[0.458s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/code/town_ws/src/village_interfaces'
+[0.464s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/code/town_ws/src/village_wang' with build type 'ament_cmake'
+[0.477s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/code/town_ws/src/village_wang'
+[0.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/code/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_interfaces -- -j8 -l8
+[0.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+[4.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/code/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_interfaces -- -j8 -l8
+[5.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/code/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_interfaces
+[5.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_interfaces)
+[5.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/code/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_interfaces
+[5.234s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces' for CMake module files
+[5.235s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces' for CMake config files
+[5.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'cmake_prefix_path')
+[5.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.ps1'
+[5.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.dsv'
+[5.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.sh'
+[5.242s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces/lib'
+[5.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'ld_library_path_lib')
+[5.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.ps1'
+[5.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.dsv'
+[5.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.sh'
+[5.247s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces/bin'
+[5.248s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces/lib/pkgconfig/village_interfaces.pc'
+[5.249s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages'
+[5.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'pythonpath')
+[5.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/pythonpath.ps1'
+[5.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/pythonpath.dsv'
+[5.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/pythonpath.sh'
+[5.254s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces/bin'
+[5.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.ps1'
+[5.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.dsv'
+[5.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.sh'
+[5.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.bash'
+[5.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.zsh'
+[5.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/code/town_ws/install/village_interfaces/share/colcon-core/packages/village_interfaces)
+[5.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_interfaces)
+[5.498s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces' for CMake module files
+[5.499s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces' for CMake config files
+[5.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'cmake_prefix_path')
+[5.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.ps1'
+[5.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.dsv'
+[5.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.sh'
+[5.504s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces/lib'
+[5.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'ld_library_path_lib')
+[5.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.ps1'
+[5.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.dsv'
+[5.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.sh'
+[5.508s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces/bin'
+[5.508s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces/lib/pkgconfig/village_interfaces.pc'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages'
+[5.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'pythonpath')
+[5.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/pythonpath.ps1'
+[5.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/pythonpath.dsv'
+[5.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/hook/pythonpath.sh'
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_interfaces/bin'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.ps1'
+[5.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.dsv'
+[5.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.sh'
+[5.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.bash'
+[5.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.zsh'
+[5.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/code/town_ws/install/village_interfaces/share/colcon-core/packages/village_interfaces)
+[5.531s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/code/town_ws/src/village_li' with build type 'ament_python'
+[5.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_li', 'ament_prefix_path')
+[5.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_li/share/village_li/hook/ament_prefix_path.ps1'
+[5.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/code/town_ws/install/village_li/share/village_li/hook/ament_prefix_path.dsv'
+[5.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_li/share/village_li/hook/ament_prefix_path.sh'
+[5.537s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.878s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/code/town_ws/src/village_li'
+[5.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.881s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/code/town_ws/src/village_li': CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/home/orangepi/code/town_ws/install/village_wang PYTHONPATH=/home/orangepi/code/town_ws/build/village_li/prefix_override:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/orangepi/code/town_ws/build/village_li/build install --record /home/orangepi/code/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed
+[6.901s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_li' for CMake module files
+[6.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/code/town_ws/src/village_li' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/home/orangepi/code/town_ws/install/village_wang PYTHONPATH=/home/orangepi/code/town_ws/build/village_li/prefix_override:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/orangepi/code/town_ws/build/village_li/build install --record /home/orangepi/code/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed
+[6.905s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_li' for CMake config files
+[6.907s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_li/lib'
+[6.908s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_li/bin'
+[6.908s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_li/lib/pkgconfig/village_li.pc'
+[6.909s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages'
+[6.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_li', 'pythonpath')
+[6.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_li/share/village_li/hook/pythonpath.ps1'
+[6.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/code/town_ws/install/village_li/share/village_li/hook/pythonpath.dsv'
+[6.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_li/share/village_li/hook/pythonpath.sh'
+[6.922s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_li/bin'
+[6.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_li)
+[6.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_li/share/village_li/package.ps1'
+[6.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/code/town_ws/install/village_li/share/village_li/package.dsv'
+[6.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_li/share/village_li/package.sh'
+[6.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_li/share/village_li/package.bash'
+[6.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_li/share/village_li/package.zsh'
+[6.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/code/town_ws/install/village_li/share/colcon-core/packages/village_li)
+[10.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+[11.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_wang
+[11.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_wang)
+[11.106s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang' for CMake module files
+[11.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_wang
+[11.109s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang' for CMake config files
+[11.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_wang', 'cmake_prefix_path')
+[11.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.ps1'
+[11.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.dsv'
+[11.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.sh'
+[11.123s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang/lib'
+[11.123s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang/bin'
+[11.123s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang/lib/pkgconfig/village_wang.pc'
+[11.124s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang/lib/python3.8/site-packages'
+[11.125s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang/bin'
+[11.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.ps1'
+[11.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.dsv'
+[11.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.sh'
+[11.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.bash'
+[11.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.zsh'
+[11.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/code/town_ws/install/village_wang/share/colcon-core/packages/village_wang)
+[11.234s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_wang)
+[11.245s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang' for CMake module files
+[11.247s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang' for CMake config files
+[11.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_wang', 'cmake_prefix_path')
+[11.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.ps1'
+[11.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.dsv'
+[11.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/hook/cmake_prefix_path.sh'
+[11.261s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang/lib'
+[11.261s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang/bin'
+[11.261s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang/lib/pkgconfig/village_wang.pc'
+[11.262s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang/lib/python3.8/site-packages'
+[11.263s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/code/town_ws/install/village_wang/bin'
+[11.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.ps1'
+[11.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.dsv'
+[11.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.sh'
+[11.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.bash'
+[11.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.zsh'
+[11.279s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/code/town_ws/install/village_wang/share/colcon-core/packages/village_wang)
+[11.280s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.282s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.310s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.311s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.311s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.372s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.376s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/code/town_ws/install/local_setup.ps1'
+[11.379s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/code/town_ws/install/_local_setup_util_ps1.py'
+[11.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/code/town_ws/install/setup.ps1'
+[11.386s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/code/town_ws/install/local_setup.sh'
+[11.388s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/code/town_ws/install/_local_setup_util_sh.py'
+[11.389s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/code/town_ws/install/setup.sh'
+[11.396s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/code/town_ws/install/local_setup.bash'
+[11.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/code/town_ws/install/setup.bash'
+[11.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/code/town_ws/install/local_setup.zsh'
+[11.405s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/code/town_ws/install/setup.zsh'

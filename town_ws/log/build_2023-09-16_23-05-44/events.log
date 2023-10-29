@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000487] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.000823] (-) JobUnselected: {'identifier': 'village_li'}
+[0.001192] (-) JobUnselected: {'identifier': 'village_zhang'}
+[0.001410] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict([('village_interfaces', '/home/orangepi/code/town_ws/install/village_interfaces')])}
+[0.001983] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.059807] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.063302] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.064847] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/code/town_ws/build/village_wang', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/code/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'orangepi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1963'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/orangepi/code/town_ws/install/village_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/code'), ('DESKTOP_SESSION', 'xfce'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('MANDATORY_PATH', '/usr/share/gconf/xfce.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/orangepi/code/town_ws/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/xfce.default.path'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', 'c1'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/orangepi5:@/tmp/.ICE-unix/1806,unix/orangepi5:/tmp/.ICE-unix/1806'), ('GDM_LANG', 'zh_CN'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/tmp/ssh-mssxirJiS9YK/agent.1806'), ('UMS_SIZE', '256M'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/orangepi'), ('AMENT_PREFIX_PATH', '/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/home/orangepi/code/town_ws/install/village_interfaces:/opt/ros/foxy'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:69f3d8a5-854f-4243-9210-ca929da1e496'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '7'), ('PWD', '/home/orangepi/code/town_ws/build/village_wang'), ('LC_ALL', 'zh_CN.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orangepi/code/town_ws/install/village_interfaces:/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[0.099424] (-) TimerEvent: {}
+[0.200176] (-) TimerEvent: {}
+[0.301018] (-) TimerEvent: {}
+[0.402579] (-) TimerEvent: {}
+[0.503169] (-) TimerEvent: {}
+[0.550958] (village_wang) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.603686] (-) TimerEvent: {}
+[0.636845] (village_wang) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.703916] (-) TimerEvent: {}
+[0.804725] (-) TimerEvent: {}
+[0.905546] (-) TimerEvent: {}
+[0.985492] (village_wang) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.005758] (-) TimerEvent: {}
+[1.106667] (-) TimerEvent: {}
+[1.136349] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.150935] (village_wang) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.206797] (-) TimerEvent: {}
+[1.307334] (-) TimerEvent: {}
+[1.407746] (-) TimerEvent: {}
+[1.443262] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.507920] (-) TimerEvent: {}
+[1.596079] (village_wang) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.606751] (village_wang) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.608079] (-) TimerEvent: {}
+[1.708866] (-) TimerEvent: {}
+[1.809653] (-) TimerEvent: {}
+[1.907285] (village_wang) StdoutLine: {'line': b'-- Found village_interfaces: 0.0.0 (/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake)\n'}
+[1.909810] (-) TimerEvent: {}
+[2.011301] (-) TimerEvent: {}
+[2.112264] (-) TimerEvent: {}
+[2.212763] (-) TimerEvent: {}
+[2.307988] (village_wang) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.312924] (-) TimerEvent: {}
+[2.413428] (-) TimerEvent: {}
+[2.465139] (village_wang) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.474965] (village_wang) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.475787] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.476240] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.479083] (village_wang) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.480021] (village_wang) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.481985] (village_wang) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.485220] (village_wang) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.486008] (village_wang) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.486744] (village_wang) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.505290] (village_wang) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.513751] (-) TimerEvent: {}
+[2.539100] (village_wang) StdoutLine: {'line': b'-- Generating done\n'}
+[2.547852] (village_wang) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/code/town_ws/build/village_wang\n'}
+[2.613966] (-) TimerEvent: {}
+[2.640706] (village_wang) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wang2_node\x1b[0m\n'}
+[2.714069] (-) TimerEvent: {}
+[2.727175] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[2.814199] (-) TimerEvent: {}
+[2.914687] (-) TimerEvent: {}
+[3.015273] (-) TimerEvent: {}
+[3.116268] (-) TimerEvent: {}
+[3.217212] (-) TimerEvent: {}
+[3.318077] (-) TimerEvent: {}
+[3.419000] (-) TimerEvent: {}
+[3.519908] (-) TimerEvent: {}
+[3.620764] (-) TimerEvent: {}
+[3.721300] (-) TimerEvent: {}
+[3.821833] (-) TimerEvent: {}
+[3.922721] (-) TimerEvent: {}
+[4.023553] (-) TimerEvent: {}
+[4.124348] (-) TimerEvent: {}
+[4.225195] (-) TimerEvent: {}
+[4.326023] (-) TimerEvent: {}
+[4.426870] (-) TimerEvent: {}
+[4.527741] (-) TimerEvent: {}
+[4.628523] (-) TimerEvent: {}
+[4.729343] (-) TimerEvent: {}
+[4.830213] (-) TimerEvent: {}
+[4.931088] (-) TimerEvent: {}
+[5.032023] (-) TimerEvent: {}
+[5.132874] (-) TimerEvent: {}
+[5.233711] (-) TimerEvent: {}
+[5.334610] (-) TimerEvent: {}
+[5.404241] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[5.406201] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.406800] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.407365] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[5.407879] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:19\x1b[m\x1b[K:\n'}
+[5.408419] (village_wang) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = unsigned int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.409081] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:152:74:\x1b[m\x1b[K   required from here\n'}
+[5.409623] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:166:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcall of overloaded \xe2\x80\x98\x1b[01m\x1b[KParameterValue(const unsigned int&)\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[5.410174] (village_wang) StderrLine: {'line': b'  166 |       rclcpp::\x1b[01;31m\x1b[KParameterValue(default_value)\x1b[m\x1b[K,\n'}
+[5.410693] (village_wang) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.411207] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[5.412654] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[5.413393] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[5.414601] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.416133] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.416880] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[5.418574] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:19\x1b[m\x1b[K:\n'}
+[5.419261] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.419866] (village_wang) StderrLine: {'line': b'   94 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const double double_value);\n'}
+[5.420442] (village_wang) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.421015] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.421591] (village_wang) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const float double_value);\n'}
+[5.422205] (village_wang) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.422853] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:88:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int64_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.423427] (village_wang) StderrLine: {'line': b'   88 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int64_t int_value);\n'}
+[5.423995] (village_wang) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.424564] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:85:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.433812] (village_wang) StderrLine: {'line': b'   85 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int int_value);\n'}
+[5.434460] (village_wang) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.438885] (-) TimerEvent: {}
+[5.439579] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:82:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.440296] (village_wang) StderrLine: {'line': b'   82 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const bool bool_value);\n'}
+[5.440879] (village_wang) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.441513] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const rclcpp::ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.442228] (village_wang) StderrLine: {'line': b'   71 | class \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K\n'}
+[5.442802] (village_wang) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.447081] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(rclcpp::ParameterValue&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.539125] (-) TimerEvent: {}
+[5.640095] (-) TimerEvent: {}
+[5.741123] (-) TimerEvent: {}
+[5.842137] (-) TimerEvent: {}
+[5.946181] (-) TimerEvent: {}
+[6.047141] (-) TimerEvent: {}
+[6.192502] (-) TimerEvent: {}
+[6.299822] (-) TimerEvent: {}
+[6.401025] (-) TimerEvent: {}
+[6.502356] (-) TimerEvent: {}
+[6.603764] (-) TimerEvent: {}
+[6.704608] (-) TimerEvent: {}
+[6.805609] (-) TimerEvent: {}
+[6.906645] (-) TimerEvent: {}
+[7.007556] (-) TimerEvent: {}
+[7.108713] (-) TimerEvent: {}
+[7.210547] (-) TimerEvent: {}
+[7.311587] (-) TimerEvent: {}
+[7.412936] (-) TimerEvent: {}
+[7.514014] (-) TimerEvent: {}
+[7.615207] (-) TimerEvent: {}
+[7.716067] (-) TimerEvent: {}
+[7.816592] (-) TimerEvent: {}
+[7.917200] (-) TimerEvent: {}
+[8.018230] (-) TimerEvent: {}
+[8.119266] (-) TimerEvent: {}
+[8.220138] (-) TimerEvent: {}
+[8.320986] (-) TimerEvent: {}
+[8.332095] (village_wang) StderrLine: {'line': b'make[2]: *** [CMakeFiles/wang2_node.dir/build.make:63\xef\xbc\x9aCMakeFiles/wang2_node.dir/src/wang2.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[8.333617] (village_wang) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78\xef\xbc\x9aCMakeFiles/wang2_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[8.334143] (village_wang) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[8.339500] (village_wang) CommandEnded: {'returncode': 2}
+[8.421227] (-) TimerEvent: {}
+[8.522780] (-) TimerEvent: {}
+[8.531925] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 2}
+[8.543305] (-) EventReactorShutdown: {}

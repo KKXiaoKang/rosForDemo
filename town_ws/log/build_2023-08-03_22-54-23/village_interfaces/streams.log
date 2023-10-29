@@ -1,0 +1,37 @@
+[0.026s] Invoking command in '/home/orangepi/code/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake /home/orangepi/code/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/orangepi/code/town_ws/install/village_interfaces
+[0.169s] -- The C compiler identification is GNU 9.4.0
+[0.303s] -- The CXX compiler identification is GNU 9.4.0
+[0.309s] -- Check for working C compiler: /usr/bin/cc
+[0.504s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.505s] -- Detecting C compiler ABI info
+[0.706s] -- Detecting C compiler ABI info - done
+[0.725s] -- Detecting C compile features
+[0.725s] -- Detecting C compile features - done
+[0.729s] -- Check for working CXX compiler: /usr/bin/c++
+[0.949s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.950s] -- Detecting CXX compiler ABI info
+[1.145s] -- Detecting CXX compiler ABI info - done
+[1.171s] -- Detecting CXX compile features
+[1.171s] -- Detecting CXX compile features - done
+[1.174s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.222s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.223s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.484s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.576s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.858s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.923s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.075s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.358s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.425s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.661s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[2.661s]   Packages installing interfaces must include
+[2.661s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[2.662s]   package.xml
+[2.662s] Call Stack (most recent call first):
+[2.663s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[2.663s] 
+[2.663s] 
+[2.676s] -- Configuring incomplete, errors occurred!
+[2.677s] See also "/home/orangepi/code/town_ws/build/village_interfaces/CMakeFiles/CMakeOutput.log".
+[2.692s] Invoked command in '/home/orangepi/code/town_ws/build/village_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake /home/orangepi/code/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/orangepi/code/town_ws/install/village_interfaces

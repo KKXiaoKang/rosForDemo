@@ -1,0 +1,270 @@
+[0.056s] Invoking command in '/home/orangepi/code/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_interfaces -- -j8 -l8
+[0.189s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.260s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.260s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.575s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.668s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.682s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.970s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.287s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.382s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.772s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.239s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.532s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.534s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.604s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.605s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.606s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[2.707s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.773s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.781s] -- Added test 'lint_cmake' to check CMake code style
+[2.785s] -- Added test 'xmllint' to check XML markup files
+[2.801s] -- Configuring done
+[3.066s] -- Generating done
+[3.097s] -- Build files have been written to: /home/orangepi/code/town_ws/build/village_interfaces
+[3.185s] [35m[1mScanning dependencies of target village_interfaces__cpp[0m
+[3.188s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.229s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.881s] [  4%] Built target village_interfaces__cpp
+[3.898s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.904s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.914s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.937s] [35m[1mScanning dependencies of target village_interfaces__rosidl_generator_c[0m
+[3.982s] [ 12%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.o[0m
+[3.999s] [ 17%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o[0m
+[4.000s] [ 17%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o[0m
+[4.350s] [ 19%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[4.417s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_cpp[0m
+[4.455s] [ 21%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o[0m
+[4.458s] [ 23%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[4.467s] [ 25%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.o[0m
+[4.517s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp[0m
+[4.555s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[4.587s] [ 27%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.o[0m
+[4.591s] [ 29%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o[0m
+[4.593s] [ 31%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o[0m
+[4.611s] [ 31%] Built target village_interfaces__rosidl_generator_c
+[4.624s] [ 34%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o[0m
+[4.626s] [ 36%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o[0m
+[5.230s] [ 38%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.o[0m
+[5.262s] [ 40%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so[0m
+[5.271s] [ 42%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.412s] [ 42%] Built target village_interfaces__rosidl_typesupport_cpp
+[5.492s] [ 44%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.716s] [ 46%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.970s] [ 46%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[6.088s] [ 48%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.183s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c[0m
+[6.216s] [ 51%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o[0m
+[6.219s] [ 53%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o[0m
+[6.233s] [ 55%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.o[0m
+[6.272s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c[0m
+[6.313s] [ 57%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[6.328s] [ 61%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o[0m
+[6.329s] [ 61%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.o[0m
+[6.336s] [ 61%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.355s] [ 63%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.357s] [ 65%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.429s] [ 68%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so[0m
+[6.471s] [ 68%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[6.548s] [ 68%] Built target village_interfaces__rosidl_typesupport_c
+[6.941s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c[0m
+[6.993s] [ 74%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.o[0m
+[6.993s] [ 74%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o[0m
+[6.994s] [ 74%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o[0m
+[7.590s] [ 76%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.801s] [ 76%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[7.878s] [ 76%] Built target village_interfaces
+[7.918s] [35m[1mScanning dependencies of target village_interfaces__py[0m
+[7.962s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.456s] [ 78%] Built target village_interfaces__py
+[9.503s] [35m[1mScanning dependencies of target village_interfaces__python[0m
+[9.552s] [ 80%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.o[0m
+[9.566s] [ 82%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o[0m
+[9.567s] [ 85%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o[0m
+[9.815s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__python.so[0m
+[9.947s] [ 87%] Built target village_interfaces__python
+[9.980s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.986s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[9.987s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c__pyext[0m
+[10.026s] [ 89%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.037s] [ 91%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.052s] [ 93%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.240s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[10.252s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[10.260s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[10.387s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[10.396s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.396s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.443s] Invoked command in '/home/orangepi/code/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_interfaces -- -j8 -l8
+[10.726s] Invoking command in '/home/orangepi/code/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_interfaces
+[10.759s] -- Install configuration: ""
+[10.760s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces
+[10.761s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces
+[10.761s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg
+[10.762s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[10.762s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.h
+[10.762s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.c
+[10.763s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.h
+[10.763s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.h
+[10.764s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/novel.h
+[10.764s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.765s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv
+[10.765s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[10.766s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.c
+[10.766s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.h
+[10.767s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__struct.h
+[10.767s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__type_support.h
+[10.768s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.h
+[10.768s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__functions.c
+[10.769s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.h
+[10.769s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__functions.h
+[10.770s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/sell_novel.h
+[10.770s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/borrow_money.h
+[10.770s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.sh
+[10.771s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.dsv
+[10.771s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[10.772s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""
+[10.772s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces
+[10.773s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg
+[10.773s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[10.773s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h
+[10.774s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.774s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv
+[10.775s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[10.775s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_fastrtps_c.h
+[10.776s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_c.h
+[10.776s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.777s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.777s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces
+[10.777s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg
+[10.778s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[10.778s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp
+[10.779s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/dds_fastrtps
+[10.780s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.780s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv
+[10.781s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[10.781s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_fastrtps_cpp.hpp
+[10.782s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/dds_fastrtps
+[10.782s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_cpp.hpp
+[10.783s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.783s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.784s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces
+[10.784s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg
+[10.784s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[10.785s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
+[10.785s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.c
+[10.786s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.786s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv
+[10.786s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[10.787s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h
+[10.787s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_introspection_c.h
+[10.788s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__type_support.c
+[10.788s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.c
+[10.789s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[10.789s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.789s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[10.790s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""
+[10.790s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces
+[10.791s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg
+[10.791s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/novel.hpp
+[10.791s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[10.792s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.hpp
+[10.792s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.hpp
+[10.792s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__builder.hpp
+[10.793s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__traits.hpp
+[10.793s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.794s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv
+[10.794s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[10.795s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.hpp
+[10.795s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__builder.hpp
+[10.795s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__type_support.hpp
+[10.796s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__struct.hpp
+[10.796s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__builder.hpp
+[10.796s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__traits.hpp
+[10.797s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.hpp
+[10.797s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__traits.hpp
+[10.798s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/borrow_money.hpp
+[10.798s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/sell_novel.hpp
+[10.798s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces
+[10.799s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg
+[10.799s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[10.800s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp
+[10.800s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.cpp
+[10.801s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv
+[10.801s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail
+[10.801s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_introspection_cpp.hpp
+[10.802s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__type_support.cpp
+[10.802s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_cpp.hpp
+[10.803s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.cpp
+[10.803s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.803s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.804s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[10.804s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""
+[10.804s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh
+[10.805s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv
+[10.805s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py
+[10.855s] Compiling '/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py'...
+[10.862s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg
+[10.863s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/__init__.py
+[10.863s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel_s.c
+[10.864s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel.py
+[10.864s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv
+[10.864s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/__init__.py
+[10.865s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money.py
+[10.865s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money_s.c
+[10.866s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_sell_novel_s.c
+[10.866s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_sell_novel.py
+[10.867s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[10.867s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[10.867s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[10.868s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[10.869s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[10.870s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[10.872s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__python.so
+[10.873s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_interfaces/lib/libvillage_interfaces__python.so" to ""
+[10.873s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.idl
+[10.874s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.idl
+[10.874s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel.idl
+[10.874s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.msg
+[10.875s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.srv
+[10.875s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Request.msg
+[10.876s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Response.msg
+[10.876s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel.srv
+[10.877s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel_Request.msg
+[10.877s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/srv/SellNovel_Response.msg
+[10.877s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+[10.878s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+[10.878s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+[10.879s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+[10.880s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/environment/path.sh
+[10.880s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/environment/path.dsv
+[10.881s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/local_setup.bash
+[10.881s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/local_setup.sh
+[10.882s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/local_setup.zsh
+[10.882s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/local_setup.dsv
+[10.882s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.dsv
+[10.883s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+[10.883s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport.cmake
+[10.884s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.884s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.885s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.885s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[10.885s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.886s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cppExport.cmake
+[10.886s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.887s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.887s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[10.888s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.888s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.888s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.889s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.889s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.890s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.890s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.891s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.891s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+[10.891s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+[10.892s] -- Installing: /home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/package.xml
+[10.900s] Invoked command in '/home/orangepi/code/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_interfaces

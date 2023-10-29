@@ -1,0 +1,4 @@
+Invoking command in '/home/orangepi/code/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_interfaces -- -j8 -l8
+Invoked command in '/home/orangepi/code/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_interfaces -- -j8 -l8
+Invoking command in '/home/orangepi/code/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_interfaces
+Invoked command in '/home/orangepi/code/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_interfaces

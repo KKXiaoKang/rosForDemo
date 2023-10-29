@@ -1,0 +1,252 @@
+[0.000000] (-) TimerEvent: {}
+[0.001292] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.001346] (-) JobUnselected: {'identifier': 'village_li'}
+[0.001384] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict([('village_interfaces', '/home/orangepi/code/town_ws/install/village_interfaces')])}
+[0.001427] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.071754] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.082000] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.082181] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/code/town_ws/build/village_wang', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/code/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'orangepi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1966'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/orangepi/code/town_ws/install/village_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/code'), ('DESKTOP_SESSION', 'xfce'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('MANDATORY_PATH', '/usr/share/gconf/xfce.mandatory.path'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/xfce.default.path'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', 'c1'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/orangepi5:@/tmp/.ICE-unix/1811,unix/orangepi5:/tmp/.ICE-unix/1811'), ('GDM_LANG', 'zh_CN'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GST_V4L2_USE_LIBV4L2', '1'), ('SSH_AUTH_SOCK', '/tmp/ssh-AdFqyZqrtjcp/agent.1811'), ('UMS_SIZE', '256M'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/orangepi'), ('AMENT_PREFIX_PATH', '/home/orangepi/code/town_ws/install/village_interfaces:/opt/ros/foxy'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:585f0535-7ae5-424e-9301-d079be29fff0'), ('QT_ACCESSIBILITY', '1'), ('UMS_RO', '0'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '7'), ('PWD', '/home/orangepi/code/town_ws/build/village_wang'), ('LC_ALL', 'zh_CN.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('UMS_MOUNT', '0'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('UMS_FILE', '/userdata/ums_shared.img'), ('CMAKE_PREFIX_PATH', '/home/orangepi/code/town_ws/install/village_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.101399] (-) TimerEvent: {}
+[0.202639] (-) TimerEvent: {}
+[0.303254] (-) TimerEvent: {}
+[0.404108] (-) TimerEvent: {}
+[0.479741] (village_wang) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.504304] (-) TimerEvent: {}
+[0.605281] (-) TimerEvent: {}
+[0.606869] (village_wang) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.705370] (-) TimerEvent: {}
+[0.805853] (-) TimerEvent: {}
+[0.906335] (-) TimerEvent: {}
+[1.007093] (-) TimerEvent: {}
+[1.108341] (-) TimerEvent: {}
+[1.135805] (village_wang) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.208649] (-) TimerEvent: {}
+[1.309342] (-) TimerEvent: {}
+[1.410015] (-) TimerEvent: {}
+[1.511133] (-) TimerEvent: {}
+[1.520763] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.554926] (village_wang) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.611341] (-) TimerEvent: {}
+[1.712251] (-) TimerEvent: {}
+[1.813479] (-) TimerEvent: {}
+[1.914410] (-) TimerEvent: {}
+[2.003521] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.014645] (-) TimerEvent: {}
+[2.115657] (-) TimerEvent: {}
+[2.216142] (-) TimerEvent: {}
+[2.316518] (village_wang) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.316842] (-) TimerEvent: {}
+[2.327618] (village_wang) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.416992] (-) TimerEvent: {}
+[2.517445] (-) TimerEvent: {}
+[2.617868] (-) TimerEvent: {}
+[2.718324] (-) TimerEvent: {}
+[2.808598] (village_wang) StdoutLine: {'line': b'-- Found village_interfaces: 0.0.0 (/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake)\n'}
+[2.818484] (-) TimerEvent: {}
+[2.919042] (-) TimerEvent: {}
+[3.019891] (-) TimerEvent: {}
+[3.120832] (-) TimerEvent: {}
+[3.221785] (-) TimerEvent: {}
+[3.322695] (-) TimerEvent: {}
+[3.376863] (village_wang) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.422937] (-) TimerEvent: {}
+[3.524151] (-) TimerEvent: {}
+[3.625368] (-) TimerEvent: {}
+[3.661554] (village_wang) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.665825] (village_wang) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.666302] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.666471] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.674087] (village_wang) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.674546] (village_wang) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.680309] (village_wang) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.688490] (village_wang) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.688872] (village_wang) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.692488] (village_wang) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.724422] (village_wang) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.725459] (-) TimerEvent: {}
+[3.819782] (village_wang) StdoutLine: {'line': b'-- Generating done\n'}
+[3.825604] (-) TimerEvent: {}
+[3.826032] (village_wang) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/code/town_ws/build/village_wang\n'}
+[3.929819] (-) TimerEvent: {}
+[3.953163] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[4.030040] (-) TimerEvent: {}
+[4.131290] (-) TimerEvent: {}
+[4.232139] (-) TimerEvent: {}
+[4.332589] (-) TimerEvent: {}
+[4.433235] (-) TimerEvent: {}
+[4.534132] (-) TimerEvent: {}
+[4.635090] (-) TimerEvent: {}
+[4.736017] (-) TimerEvent: {}
+[4.837002] (-) TimerEvent: {}
+[4.937814] (-) TimerEvent: {}
+[5.038644] (-) TimerEvent: {}
+[5.139437] (-) TimerEvent: {}
+[5.240330] (-) TimerEvent: {}
+[5.341605] (-) TimerEvent: {}
+[5.442500] (-) TimerEvent: {}
+[5.543179] (-) TimerEvent: {}
+[5.644154] (-) TimerEvent: {}
+[5.746521] (-) TimerEvent: {}
+[5.847085] (-) TimerEvent: {}
+[5.947685] (-) TimerEvent: {}
+[6.048599] (-) TimerEvent: {}
+[6.149090] (-) TimerEvent: {}
+[6.249643] (-) TimerEvent: {}
+[6.350394] (-) TimerEvent: {}
+[6.452250] (-) TimerEvent: {}
+[6.554136] (-) TimerEvent: {}
+[6.655171] (-) TimerEvent: {}
+[6.756203] (-) TimerEvent: {}
+[6.857276] (-) TimerEvent: {}
+[6.958308] (-) TimerEvent: {}
+[7.059151] (-) TimerEvent: {}
+[7.159899] (-) TimerEvent: {}
+[7.260663] (-) TimerEvent: {}
+[7.361657] (-) TimerEvent: {}
+[7.462836] (-) TimerEvent: {}
+[7.563999] (-) TimerEvent: {}
+[7.664973] (-) TimerEvent: {}
+[7.766072] (-) TimerEvent: {}
+[7.870140] (-) TimerEvent: {}
+[7.971223] (-) TimerEvent: {}
+[8.072131] (-) TimerEvent: {}
+[8.111411] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/context.hpp:19\x1b[m\x1b[K,\n'}
+[8.111805] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18\x1b[m\x1b[K,\n'}
+[8.111924] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:32\x1b[m\x1b[K,\n'}
+[8.112022] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[8.112115] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.112206] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.112315] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:19\x1b[m\x1b[K:\n'}
+[8.112404] (village_wang) StderrLine: {'line': b'/usr/include/c++/9/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (SingleDogNode::*)(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >), SingleDogNode*, const std::_Placeholder<2>&>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.112511] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:787:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (SingleDogNode::*)(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >), SingleDogNode*, const std::_Placeholder<2>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.112609] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:808:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (SingleDogNode::*)(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >); _BoundArgs = {SingleDogNode*, const std::_Placeholder<2>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.112719] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:141:149:\x1b[m\x1b[K   required from here\n'}
+[8.112812] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:775:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[8.112905] (village_wang) StderrLine: {'line': b'  774 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[8.112991] (village_wang) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[8.113112] (village_wang) StderrLine: {'line': b'  775 | \x1b[01;31m\x1b[K      ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[8.113208] (village_wang) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.113296] (village_wang) StderrLine: {'line': b'  776 | \x1b[01;31m\x1b[K      : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[8.113383] (village_wang) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.172206] (-) TimerEvent: {}
+[8.272730] (-) TimerEvent: {}
+[8.373822] (-) TimerEvent: {}
+[8.476222] (-) TimerEvent: {}
+[8.577276] (-) TimerEvent: {}
+[8.678354] (-) TimerEvent: {}
+[8.756869] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:28\x1b[m\x1b[K,\n'}
+[8.759162] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[8.759862] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.760428] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[8.761035] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.761517] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.761968] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[8.762478] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[8.762921] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.763425] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.763862] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:19\x1b[m\x1b[K:\n'}
+[8.764289] (village_wang) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/any_service_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = 0; ServiceT = village_interfaces::srv::SellNovel]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.764847] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:3:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = village_interfaces::srv::SellNovel; CallbackT = std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<village_interfaces::srv::SellNovel> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.765362] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = village_interfaces::srv::SellNovel; CallbackT = std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<village_interfaces::srv::SellNovel> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.765894] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:143:107:\x1b[m\x1b[K   required from here\n'}
+[8.766332] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:69:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnyServiceCallback<village_interfaces::srv::SellNovel>::SharedPtrCallback\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[8.767093] (village_wang) StderrLine: {'line': b'   69 |     \x1b[01;31m\x1b[Kshared_ptr_callback_ = callback\x1b[m\x1b[K;\n'}
+[8.767537] (village_wang) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.767962] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/future:48\x1b[m\x1b[K,\n'}
+[8.768386] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[8.768818] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.769242] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:19\x1b[m\x1b[K:\n'}
+[8.769662] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:462:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void; _ArgTypes = {std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.772950] (village_wang) StderrLine: {'line': b'  462 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const function& __x)\n'}
+[8.773574] (village_wang) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.774048] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:462:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<void(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.774596] (village_wang) StderrLine: {'line': b'  462 |       operator=(\x1b[01;36m\x1b[Kconst function& __x\x1b[m\x1b[K)\n'}
+[8.775144] (village_wang) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.775574] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:480:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void; _ArgTypes = {std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.776026] (village_wang) StderrLine: {'line': b'  480 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(function&& __x) noexcept\n'}
+[8.777765] (village_wang) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.778628] (-) TimerEvent: {}
+[8.779259] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:480:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.780424] (village_wang) StderrLine: {'line': b'  480 |       operator=(\x1b[01;36m\x1b[Kfunction&& __x\x1b[m\x1b[K) noexcept\n'}
+[8.780988] (village_wang) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.781640] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:494:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = void; _ArgTypes = {std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >}; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.782152] (village_wang) StderrLine: {'line': b'  494 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(nullptr_t) noexcept\n'}
+[8.782591] (village_wang) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.783009] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:494:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.783625] (village_wang) StderrLine: {'line': b'  494 |       operator=(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept\n'}
+[8.784075] (village_wang) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.785035] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:523:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<typename std::decay<_Functor>::type>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.785932] (village_wang) StderrLine: {'line': b'  523 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(_Functor&& __f)\n'}
+[8.786573] (village_wang) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.787082] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:523:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.787554] (village_wang) StderrLine: {'line': b'/usr/include/c++/9/bits/std_function.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = typename std::enable_if<_Cond::value, _Tp>::type [with _Cond = std::function<void(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>::_Callable<std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>, std::__invoke_result<std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>&, std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > > > >; _Tp = std::function<void(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>&; _Res = void; _ArgTypes = {std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.788219] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:523:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<void(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>::_Requires<std::function<void(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>::_Callable<typename std::decay<_Tp>::type, std::__invoke_result<typename std::decay<_Tp>::type&, std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > > > >, std::function<void(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>&> std::function<void(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>::operator=<_Functor>(_Functor&&) [with _Functor = std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>&]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.788829] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:69:26:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = 0; ServiceT = village_interfaces::srv::SellNovel]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.789312] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:3:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = village_interfaces::srv::SellNovel; CallbackT = std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<village_interfaces::srv::SellNovel> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.790846] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = village_interfaces::srv::SellNovel; CallbackT = std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<village_interfaces::srv::SellNovel> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.791572] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:143:107:\x1b[m\x1b[K   required from here\n'}
+[8.792124] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:385:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::function<void(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.792767] (village_wang) StderrLine: {'line': b'  385 |  using \x1b[01;31m\x1b[K_Requires\x1b[m\x1b[K = typename enable_if<_Cond::value, _Tp>::type;\n'}
+[8.793422] (village_wang) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.793951] (village_wang) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/any_service_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = 0; ServiceT = village_interfaces::srv::SellNovel]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.794507] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:3:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = village_interfaces::srv::SellNovel; CallbackT = std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<village_interfaces::srv::SellNovel> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.795213] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = village_interfaces::srv::SellNovel; CallbackT = std::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<village_interfaces::srv::SellNovel> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.795906] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:143:107:\x1b[m\x1b[K   required from here\n'}
+[8.796592] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:532:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.797402] (village_wang) StderrLine: {'line': b'  532 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(reference_wrapper<_Functor> __f) noexcept\n'}
+[8.797870] (village_wang) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.798308] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:532:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.798749] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:28\x1b[m\x1b[K,\n'}
+[8.799172] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[8.801877] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.802604] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[8.803109] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.803588] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.804015] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[8.804439] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[8.804861] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.805275] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[8.805729] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:19\x1b[m\x1b[K:\n'}
+[8.806155] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:69:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<void (SingleDogNode::*(SingleDogNode*, std::_Placeholder<2>))(std::shared_ptr<village_interfaces::srv::SellNovel_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::SellNovel_Response_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::reference_wrapper<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.806860] (village_wang) StderrLine: {'line': b'   69 |     \x1b[01;36m\x1b[Kshared_ptr_callback_ = callback\x1b[m\x1b[K;\n'}
+[8.807310] (village_wang) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.878893] (-) TimerEvent: {}
+[8.979912] (-) TimerEvent: {}
+[9.081002] (-) TimerEvent: {}
+[9.182136] (-) TimerEvent: {}
+[9.283538] (-) TimerEvent: {}
+[9.384864] (-) TimerEvent: {}
+[9.486143] (-) TimerEvent: {}
+[9.588210] (-) TimerEvent: {}
+[9.691072] (-) TimerEvent: {}
+[9.792610] (-) TimerEvent: {}
+[9.895138] (-) TimerEvent: {}
+[9.996496] (-) TimerEvent: {}
+[10.097746] (-) TimerEvent: {}
+[10.198941] (-) TimerEvent: {}
+[10.365591] (-) TimerEvent: {}
+[10.480195] (-) TimerEvent: {}
+[10.583692] (-) TimerEvent: {}
+[10.684348] (-) TimerEvent: {}
+[10.785038] (-) TimerEvent: {}
+[10.885817] (-) TimerEvent: {}
+[10.986644] (-) TimerEvent: {}
+[11.087665] (-) TimerEvent: {}
+[11.189955] (-) TimerEvent: {}
+[11.292174] (-) TimerEvent: {}
+[11.394487] (-) TimerEvent: {}
+[11.496829] (-) TimerEvent: {}
+[11.599288] (-) TimerEvent: {}
+[11.701485] (-) TimerEvent: {}
+[11.803856] (-) TimerEvent: {}
+[11.906075] (-) TimerEvent: {}
+[12.009203] (-) TimerEvent: {}
+[12.111622] (-) TimerEvent: {}
+[12.134056] (village_wang) StderrLine: {'line': b'make[2]: *** [CMakeFiles/wang2_node.dir/build.make:63\xef\xbc\x9aCMakeFiles/wang2_node.dir/src/wang2.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[12.139573] (village_wang) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78\xef\xbc\x9aCMakeFiles/wang2_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[12.140043] (village_wang) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[12.147998] (village_wang) CommandEnded: {'returncode': 2}
+[12.212281] (-) TimerEvent: {}
+[12.319015] (-) TimerEvent: {}
+[12.346658] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 2}
+[12.361402] (-) EventReactorShutdown: {}

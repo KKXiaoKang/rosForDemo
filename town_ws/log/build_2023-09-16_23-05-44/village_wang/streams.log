@@ -1,0 +1,66 @@
+[0.067s] Invoking command in '/home/orangepi/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+[0.549s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.635s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.984s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.149s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.595s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.605s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.906s] -- Found village_interfaces: 0.0.0 (/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake)
+[2.306s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.464s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.474s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.474s] -- Configured cppcheck include dirs: 
+[2.475s] -- Configured cppcheck exclude dirs and/or files: 
+[2.478s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.478s] -- Configured cpplint exclude dirs and/or files: 
+[2.480s] -- Added test 'lint_cmake' to check CMake code style
+[2.484s] -- Added test 'uncrustify' to check C / C++ code style
+[2.484s] -- Configured uncrustify additional arguments: 
+[2.485s] -- Added test 'xmllint' to check XML markup files
+[2.504s] -- Configuring done
+[2.538s] -- Generating done
+[2.547s] -- Build files have been written to: /home/orangepi/code/town_ws/build/village_wang
+[2.639s] [35m[1mScanning dependencies of target wang2_node[0m
+[2.725s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[5.404s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[5.405s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.405s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[5.406s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.406s]                  from [01m[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:19[m[K:
+[5.407s] /opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = unsigned int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[5.407s] [01m[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:152:74:[m[K   required from here
+[5.408s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:166:15:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[KParameterValue(const unsigned int&)[m[K’ is ambiguous
+[5.408s]   166 |       rclcpp::[01;31m[KParameterValue(default_value)[m[K,
+[5.409s]       |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.410s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[5.411s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[5.412s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[5.414s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.415s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[5.416s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.417s]                  from [01m[K/home/orangepi/code/town_ws/src/village_wang/src/wang2.cpp:19[m[K:
+[5.418s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:94:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(double)[m[K’
+[5.418s]    94 |   explicit [01;36m[KParameterValue[m[K(const double double_value);
+[5.419s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.419s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(float)[m[K’
+[5.420s]    91 |   explicit [01;36m[KParameterValue[m[K(const float double_value);
+[5.421s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.421s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:88:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(int64_t)[m[K’
+[5.422s]    88 |   explicit [01;36m[KParameterValue[m[K(const int64_t int_value);
+[5.422s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.431s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:85:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(int)[m[K’
+[5.432s]    85 |   explicit [01;36m[KParameterValue[m[K(const int int_value);
+[5.433s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.438s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:82:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(bool)[m[K’
+[5.439s]    82 |   explicit [01;36m[KParameterValue[m[K(const bool bool_value);
+[5.439s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.440s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const rclcpp::ParameterValue&)[m[K’
+[5.441s]    71 | class [01;36m[KParameterValue[m[K
+[5.445s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.446s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(rclcpp::ParameterValue&&)[m[K’
+[8.331s] make[2]: *** [CMakeFiles/wang2_node.dir/build.make:63：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+[8.332s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/wang2_node.dir/all] 错误 2
+[8.332s] make: *** [Makefile:141：all] 错误 2
+[8.339s] Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8

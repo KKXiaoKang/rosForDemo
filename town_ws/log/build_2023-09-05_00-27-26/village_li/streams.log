@@ -1,0 +1,25 @@
+[0.898s] Invoking command in '/home/orangepi/code/town_ws/src/village_li': AMENT_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/orangepi/code/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/code/town_ws/build/village_li/prefix_override:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/orangepi/code/town_ws/build/village_li/build install --record /home/orangepi/code/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed
+[1.173s] running egg_info
+[1.174s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[1.174s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[1.175s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[1.176s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[1.177s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[1.221s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[1.222s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[1.222s] running build
+[1.222s] running build_py
+[1.223s] copying village_li/li3.py -> /home/orangepi/code/town_ws/build/village_li/build/lib/village_li
+[1.224s] running install
+[1.224s] running install_lib
+[1.225s] copying /home/orangepi/code/town_ws/build/village_li/build/lib/village_li/li3.py -> /home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages/village_li
+[1.225s] byte-compiling /home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages/village_li/li3.py to li3.cpython-38.pyc
+[1.227s] running install_data
+[1.228s] running install_egg_info
+[1.230s] removing '/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info' (and everything under it)
+[1.231s] Copying ../../build/village_li/village_li.egg-info to /home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info
+[1.231s] running install_scripts
+[1.255s] Installing li3_node script to /home/orangepi/code/town_ws/install/village_li/lib/village_li
+[1.255s] Installing li4_node script to /home/orangepi/code/town_ws/install/village_li/lib/village_li
+[1.256s] writing list of installed files to '/home/orangepi/code/town_ws/build/village_li/install.log'
+[1.305s] Invoked command in '/home/orangepi/code/town_ws/src/village_li' returned '0': AMENT_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces LD_LIBRARY_PATH=/home/orangepi/code/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/code/town_ws/build/village_li/prefix_override:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/orangepi/code/town_ws/build/village_li/build install --record /home/orangepi/code/town_ws/build/village_li/install.log --install-scripts $base/lib/village_li --single-version-externally-managed

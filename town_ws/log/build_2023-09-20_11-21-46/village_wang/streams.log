@@ -1,0 +1,53 @@
+[0.042s] Invoking command in '/home/orangepi/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+[0.227s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.284s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.669s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.833s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.844s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.174s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.304s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.310s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.598s] -- Found village_interfaces: 0.0.0 (/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake)
+[1.975s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.150s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.155s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.156s] -- Configured cppcheck include dirs: 
+[2.157s] -- Configured cppcheck exclude dirs and/or files: 
+[2.159s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.160s] -- Configured cpplint exclude dirs and/or files: 
+[2.161s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.167s] -- Added test 'lint_cmake' to check CMake code style
+[2.168s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.173s] -- Added test 'uncrustify' to check C / C++ code style
+[2.174s] -- Configured uncrustify additional arguments: 
+[2.175s] -- Added test 'xmllint' to check XML markup files
+[2.196s] -- Configuring done
+[2.238s] -- Generating done
+[2.249s] -- Build files have been written to: /home/orangepi/code/town_ws/build/village_wang
+[2.350s] [35m[1mScanning dependencies of target wang2_node[0m
+[2.446s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[13.102s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[14.219s] [100%] Built target wang2_node
+[14.260s] Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+[14.385s] Invoking command in '/home/orangepi/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_wang
+[14.399s] -- Install configuration: ""
+[14.400s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[14.400s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[14.400s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[14.401s] -- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[14.401s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[14.401s] -- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[14.401s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[14.401s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[14.401s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[14.401s] -- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[14.401s] -- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.dsv
+[14.401s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[14.401s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[14.402s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[14.402s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.xml
+[14.403s] -- Installing: /home/orangepi/code/town_ws/install/village_wang/lib/village_wang/wang2_node
+[14.409s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[14.410s] -- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/launch
+[14.411s] -- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/launch/village.launch.py
+[14.417s] Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/home/orangepi/code/town_ws/install/village_zhang:/home/orangepi/code/town_ws/install/village_wang:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:/home/orangepi/code/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_wang

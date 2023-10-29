@@ -1,0 +1,26 @@
+[0.068s] Invoking command in '/home/orangepi/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+[0.478s] [35m[1mScanning dependencies of target wang2_node[0m
+[0.597s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[3.687s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[4.095s] [100%] Built target wang2_node
+[4.138s] Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+[4.257s] Invoking command in '/home/orangepi/code/town_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_wang
+[4.292s] -- Install configuration: ""
+[4.295s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[4.295s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[4.296s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[4.297s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[4.299s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[4.300s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[4.302s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[4.304s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[4.304s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[4.308s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[4.309s] -- Installing: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.dsv
+[4.310s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[4.311s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[4.311s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[4.312s] -- Up-to-date: /home/orangepi/code/town_ws/install/village_wang/share/village_wang/package.xml
+[4.312s] -- Installing: /home/orangepi/code/town_ws/install/village_wang/lib/village_wang/wang2_node
+[4.313s] -- Set runtime path of "/home/orangepi/code/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[4.314s] Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/code/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/orangepi/code/town_ws/build/village_wang

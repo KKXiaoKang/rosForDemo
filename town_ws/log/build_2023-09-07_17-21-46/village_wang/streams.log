@@ -1,0 +1,33 @@
+[0.082s] Invoking command in '/home/orangepi/code/town_ws/build/village_wang': AMENT_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/orangepi/code/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8
+[0.469s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.578s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.964s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.316s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.689s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.834s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.840s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.165s] -- Found village_interfaces: 0.0.0 (/home/orangepi/code/town_ws/install/village_interfaces/share/village_interfaces/cmake)
+[2.579s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.612s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.795s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.800s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.800s] -- Configured cppcheck include dirs: 
+[2.801s] -- Configured cppcheck exclude dirs and/or files: 
+[2.805s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.805s] -- Configured cpplint exclude dirs and/or files: 
+[2.808s] -- Added test 'lint_cmake' to check CMake code style
+[2.810s] -- Added test 'uncrustify' to check C / C++ code style
+[2.810s] -- Configured uncrustify additional arguments: 
+[2.811s] -- Added test 'xmllint' to check XML markup files
+[2.818s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:64 (message):
+[2.818s]   rosidl_generate_interfaces() must be called before ament_package()
+[2.818s] Call Stack (most recent call first):
+[2.818s]   CMakeLists.txt:52 (rosidl_generate_interfaces)
+[2.818s] 
+[2.819s] 
+[2.822s] -- Configuring incomplete, errors occurred!
+[2.822s] See also "/home/orangepi/code/town_ws/build/village_wang/CMakeFiles/CMakeOutput.log".
+[2.822s] See also "/home/orangepi/code/town_ws/build/village_wang/CMakeFiles/CMakeError.log".
+[2.840s] make: *** [Makefile:266：cmake_check_build_system] 错误 1
+[2.853s] Invoked command in '/home/orangepi/code/town_ws/build/village_wang' returned '2': AMENT_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/code/town_ws/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/orangepi/code/town_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/code/town_ws/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/code/town_ws/build/village_wang -- -j8 -l8

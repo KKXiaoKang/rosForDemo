@@ -1,0 +1,24 @@
+[1.051s] Invoking command in '/home/orangepi/code/My_Robot/src/localization_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/orangepi/code/My_Robot/build/localization_pkg/prefix_override:/home/orangepi/code/My_Robot/install/localization_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/localization_pkg build --build-base /home/orangepi/code/My_Robot/build/localization_pkg/build install --record /home/orangepi/code/My_Robot/build/localization_pkg/install.log --install-scripts $base/lib/localization_pkg --single-version-externally-managed
+[1.322s] running egg_info
+[1.323s] writing ../../build/localization_pkg/localization_pkg.egg-info/PKG-INFO
+[1.323s] writing dependency_links to ../../build/localization_pkg/localization_pkg.egg-info/dependency_links.txt
+[1.324s] writing entry points to ../../build/localization_pkg/localization_pkg.egg-info/entry_points.txt
+[1.324s] writing requirements to ../../build/localization_pkg/localization_pkg.egg-info/requires.txt
+[1.325s] writing top-level names to ../../build/localization_pkg/localization_pkg.egg-info/top_level.txt
+[1.371s] reading manifest file '../../build/localization_pkg/localization_pkg.egg-info/SOURCES.txt'
+[1.372s] writing manifest file '../../build/localization_pkg/localization_pkg.egg-info/SOURCES.txt'
+[1.372s] running build
+[1.373s] running build_py
+[1.373s] copying localization_pkg/localization_node.py -> /home/orangepi/code/My_Robot/build/localization_pkg/build/lib/localization_pkg
+[1.374s] running install
+[1.374s] running install_lib
+[1.375s] copying /home/orangepi/code/My_Robot/build/localization_pkg/build/lib/localization_pkg/localization_node.py -> /home/orangepi/code/My_Robot/install/localization_pkg/lib/python3.8/site-packages/localization_pkg
+[1.375s] byte-compiling /home/orangepi/code/My_Robot/install/localization_pkg/lib/python3.8/site-packages/localization_pkg/localization_node.py to localization_node.cpython-38.pyc
+[1.377s] running install_data
+[1.378s] running install_egg_info
+[1.380s] removing '/home/orangepi/code/My_Robot/install/localization_pkg/lib/python3.8/site-packages/localization_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.380s] Copying ../../build/localization_pkg/localization_pkg.egg-info to /home/orangepi/code/My_Robot/install/localization_pkg/lib/python3.8/site-packages/localization_pkg-0.0.0-py3.8.egg-info
+[1.381s] running install_scripts
+[1.403s] Installing localization_node script to /home/orangepi/code/My_Robot/install/localization_pkg/lib/localization_pkg
+[1.404s] writing list of installed files to '/home/orangepi/code/My_Robot/build/localization_pkg/install.log'
+[1.449s] Invoked command in '/home/orangepi/code/My_Robot/src/localization_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/orangepi/code/My_Robot/build/localization_pkg/prefix_override:/home/orangepi/code/My_Robot/install/localization_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/localization_pkg build --build-base /home/orangepi/code/My_Robot/build/localization_pkg/build install --record /home/orangepi/code/My_Robot/build/localization_pkg/install.log --install-scripts $base/lib/localization_pkg --single-version-externally-managed

@@ -1,0 +1,56 @@
+[0.044s] Invoking command in '/home/orangepi/code/My_Robot/build/perception_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orangepi/code/My_Robot/src/perception_pkg -DCMAKE_INSTALL_PREFIX=/home/orangepi/code/My_Robot/install/perception_pkg
+[0.736s] -- The C compiler identification is GNU 9.4.0
+[1.266s] -- The CXX compiler identification is GNU 9.4.0
+[1.293s] -- Check for working C compiler: /usr/bin/cc
+[1.556s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.563s] -- Detecting C compiler ABI info
+[1.854s] -- Detecting C compiler ABI info - done
+[1.905s] -- Detecting C compile features
+[1.910s] -- Detecting C compile features - done
+[1.920s] -- Check for working CXX compiler: /usr/bin/c++
+[2.181s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.186s] -- Detecting CXX compiler ABI info
+[2.443s] -- Detecting CXX compiler ABI info - done
+[2.504s] -- Detecting CXX compile features
+[2.505s] -- Detecting CXX compile features - done
+[2.513s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.594s] -- Found PythonInterp: /home/orangepi/miniconda3/bin/python3 (found suitable version "3.8.17", minimum required is "3") 
+[2.594s] -- Using PYTHON_EXECUTABLE: /home/orangepi/miniconda3/bin/python3
+[3.096s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.225s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.572s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.655s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.930s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.935s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.939s] -- Looking for pthread.h
+[4.181s] -- Looking for pthread.h - found
+[4.181s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.400s] -- Looking for pthread_create in pthreads
+[4.600s] -- Looking for pthread_create in pthreads - not found
+[4.600s] -- Looking for pthread_create in pthread
+[4.846s] -- Looking for pthread_create in pthread - found
+[4.850s] -- Found Threads: TRUE  
+[5.328s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.397s] Traceback (most recent call last):
+[5.398s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[5.399s]     from catkin_pkg.package import parse_package_string
+[5.399s] ModuleNotFoundError: No module named 'catkin_pkg'
+[5.404s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[5.404s]   execute_process(/home/orangepi/miniconda3/bin/python3
+[5.405s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[5.405s]   /home/orangepi/code/My_Robot/src/perception_pkg/package.xml
+[5.406s]   /home/orangepi/code/My_Robot/build/perception_pkg/ament_cmake_core/package.cmake)
+[5.406s]   returned error code 1
+[5.407s] Call Stack (most recent call first):
+[5.407s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[5.407s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[5.408s]   CMakeLists.txt:34 (ament_lint_auto_find_test_dependencies)
+[5.408s] 
+[5.408s] 
+[5.409s] -- Configuring incomplete, errors occurred!
+[5.409s] See also "/home/orangepi/code/My_Robot/build/perception_pkg/CMakeFiles/CMakeOutput.log".
+[5.410s] See also "/home/orangepi/code/My_Robot/build/perception_pkg/CMakeFiles/CMakeError.log".
+[5.422s] Invoked command in '/home/orangepi/code/My_Robot/build/perception_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orangepi/code/My_Robot/src/perception_pkg -DCMAKE_INSTALL_PREFIX=/home/orangepi/code/My_Robot/install/perception_pkg

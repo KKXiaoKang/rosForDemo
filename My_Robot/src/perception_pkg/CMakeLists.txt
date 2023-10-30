@@ -1,0 +1,58 @@
+cmake_minimum_required(VERSION 3.5)
+project(perception_pkg)
+
+# Default to C99
+if(NOT CMAKE_C_STANDARD)
+  set(CMAKE_C_STANDARD 99)
+endif()
+
+# Default to C++14
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+
+# # service for to add
+# find_package(village_interfaces REQUIRED)
+# # service for to add
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # uncomment the line when a copyright and license is not present in all source files
+  #set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # uncomment the line when this package is not in a git repo
+  #set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_package()
+
+# ------------------------------------- ROS2 节点一定要添加的CMakeLists.txt的一些指令 ------------------------------------ #
+# 添加要编译的cpp文件 未来可以拓展到include文件进行编译
+add_executable(perception_node src/perception_node.cpp)
+
+# 添加perception_node的节点依赖于rclcpp
+# service for to add
+ament_target_dependencies(perception_node 
+  rclcpp 
+)
+
+# 将编译好的文件放在大目录下的install下
+install(TARGETS
+  perception_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# # 将launch文件添加到share下的功能包目录当中
+# install(DIRECTORY launch
+#   DESTINATION share/${PROJECT_NAME}
+# )

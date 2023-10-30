@@ -1,0 +1,2 @@
+Invoking command in '/home/orangepi/code/My_Robot/build/perception_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orangepi/code/My_Robot/src/perception_pkg -DCMAKE_INSTALL_PREFIX=/home/orangepi/code/My_Robot/install/perception_pkg
+Invoked command in '/home/orangepi/code/My_Robot/build/perception_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/orangepi/code/My_Robot/src/perception_pkg -DCMAKE_INSTALL_PREFIX=/home/orangepi/code/My_Robot/install/perception_pkg
